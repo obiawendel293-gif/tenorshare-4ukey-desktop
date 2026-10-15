@@ -1,0 +1,12 @@
+*.svg text
+*.sh text eol=lf
+*.htm linguist-vendored
+src/*.ts linguist-detectable
+go.sum linguist-generated
+
+node_modules/* linguist-vendored
+
+public/index.html linguist-vendored
+yarn.lock linguist-generated
+*.tsx linguist-detectable
+# eof 03d3865a
